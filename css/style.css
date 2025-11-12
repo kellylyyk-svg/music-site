@@ -43,7 +43,11 @@ button.jenre {border-radius: 20px; background: #000; color: #fff; font-size: 18p
 .playbar_btn ul {display: flex; justify-content: space-between; align-items: center; height: 100%;}
 
 .part2 {width: 472px; height: 652px; border: 1px solid blue;}
-.section1_top {display: flex; justify-content: space-between;}
-.section1_top h2 {font-size: 35px;}
-.section1_top a {text-decoration-line: underline;}
+.section1_top {display: flex; justify-content: space-between; width: 472px; height: 100px; align-items: end;}
+.section1_top h2 {font-size: 40px; display: flex; height: 100%; align-items: center;}
+.section1_top a {text-decoration-line: underline; font-size: 23px; height: 35px;}
+ul.jenre_list {display: flex; margin: 25px auto 45px auto;}
+ul.jenre_list li {border: 2px solid #000; border-radius: 15px;}
+ul.jenre_list li a {padding: 0 10px; font-size: 20px;}
+ul.image_list {}
 
